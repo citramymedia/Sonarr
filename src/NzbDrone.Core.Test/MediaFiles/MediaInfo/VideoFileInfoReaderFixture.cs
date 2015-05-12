@@ -56,7 +56,6 @@ namespace NzbDrone.Core.Test.MediaFiles.MediaInfo
         }
 
         [Test]
-        [Ignore]
         public void get_info_unicode()
         {
             var srcPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "Media", "H264_sample.mp4");
